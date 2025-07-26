@@ -16,8 +16,10 @@ elif operator == "*":
 elif operator == "/":
     if num2 == 0:
         print("can't divide by zero")
+        exit()
     total = num1 / num2 
 else:
     print("please enter a valid operator and try again!")   
+    exit()
 
 print(num1, operator, num2, "=", total)
